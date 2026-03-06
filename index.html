@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyFocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blobs"></div>
+    
+    <main class="glass-container">
+        <header>
+            <h1 class="logo">EasyFocus🌸</h1>
+        </header>
+
+        <section class="timer-grid">
+            <div class="timer-card">
+                <span class="label">Total Focus Session</span>
+                <div class="time-display" id="big-timer">90:00</div>
+                <p id="session-status" class="status-text">Deep Work Phase</p>
+            </div>
+
+            <div class="timer-card">
+                <span class="label">Current Task</span>
+                <div class="time-display" id="small-timer">20:00</div>
+                <div class="task-input-wrapper">
+                    <input type="number" id="task-minutes" placeholder="Mins" min="1">
+                    <button id="set-task-btn">Set</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="controls">
+            <button id="start-pause-btn" class="main-btn">Start Session</button>
+            <button id="reset-btn" class="secondary-btn">Reset</button>
+        </section>
+
+        <div id="choice-modal" class="modal hidden">
+            <div class="modal-content glass">
+                <h3>Keep Flowing?</h3>
+                <p>The 90-minute block is up, but your task timer is still running. Would you like to finish the task or start your break?</p>
+                <div class="modal-btns">
+                    <button id="finish-task" class="main-btn">Finish Task</button>
+                    <button id="break-now" class="secondary-btn">Break Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
