@@ -1,4 +1,4 @@
-# ADHD Cozy Timer: EasyFocus
+# ADHD Cozy Timer: [EasyFocus](https://sharmaankita3387.github.io/adhd_cozy_timer/)
 ### A Mindful Study Companion for ADHD Focus
 
 **EasyFocus** is a modern, glassmorphic web application designed to combat time-blindness. Unlike standard pomodoro timers, it acknowledges the reality of **Hyperfocus** by providing a dual-timer system: a 90-minute "Macro" session alongside a customizable "Micro" task timer.
